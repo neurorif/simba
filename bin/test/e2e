@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e # Exit immediately if a command exits with a non-zero status.
+
+if [ "$1" = "start" ]; then
+    if [ "$2" = "--dev" ]; then
+        npm run start --reset-cache &
+        detox build --configuration android.emu.debug
+        detox test --configuration android.emu.debug
+    else
+        detox build --configuration android.emu.release
+        detox test --configuration android.emu.release
+    fi
+fi

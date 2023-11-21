@@ -14,3 +14,5 @@ Inspired by https://ignitecookbook.com/
 - zustand
 - mmkv
 - react-query
+- react-hook-form
+- zod

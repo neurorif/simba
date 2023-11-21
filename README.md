@@ -8,11 +8,11 @@ Inspired by https://ignitecookbook.com/
 
 # Library used
 
-- jest
-- detox
-- @testing-library/react-native
-- zustand
-- mmkv
-- react-query
-- react-hook-form
-- zod
+- jest (https://github.com/jestjs/jest)
+- detox (https://github.com/wix/Detox)
+- @testing-library/react-native (https://github.com/callstack/react-native-testing-library)
+- zustand (https://github.com/pmndrs/zustand)
+- react-native-mmkv (https://github.com/mrousavy/react-native-mmkv)
+- react-query (https://github.com/TanStack/query)
+- react-hook-form (https://github.com/react-hook-form/react-hook-form)
+- zod (https://github.com/colinhacks/zod)

@@ -2,7 +2,7 @@
 
 # The idea
 
-Bootstrap your next startup idea by using high quality starter pack.
+Bootstrap your next startup idea by using high quality starter pack with high value library.
 
 Inspired by https://ignitecookbook.com/
 

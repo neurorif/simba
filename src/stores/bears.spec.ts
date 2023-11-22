@@ -1,6 +1,5 @@
-import {renderHook} from '@testing-library/react-native';
+import {renderHook, act} from '@testing-library/react-native';
 import {useBearStore} from './bears';
-import {act} from 'react-test-renderer';
 import {describe, it, expect} from '@jest/globals';
 
 describe('useBearStore', () => {

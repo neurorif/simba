@@ -11,7 +11,7 @@
     "test:typescript": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.8.7",
+    "@tanstack/react-query": "^5.10.0",
     "react": "18.2.0",
     "react-hook-form": "^7.48.2",
     "react-native": "0.72.7",

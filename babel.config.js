@@ -6,12 +6,12 @@ module.exports = {
       {
         root: ['./src/'],
         alias: {
-          '@components': './src/components',
-          '@helpers': './src/helpers',
-          '@hooks': './src/hooks',
-          '@stores': './src/stores',
-          '@screens': './src/screens',
-          '@network': './src/network',
+          '@simba/components': './src/components',
+          '@simba/helpers': './src/helpers',
+          '@simba/hooks': './src/hooks',
+          '@simba/stores': './src/stores',
+          '@simba/screens': './src/screens',
+          '@simba/network': './src/network',
         },
       },
     ],

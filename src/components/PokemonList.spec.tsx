@@ -2,7 +2,7 @@ import React from 'react';
 import {it, expect} from '@jest/globals';
 import {fireEvent, render, screen, within} from '@testing-library/react-native';
 import PokemonList from './PokemonList';
-import useFetchPokemon from '@network/useFetchPokemon';
+import useFetchPokemon from '@simba/network/useFetchPokemon';
 
 jest.mock('@network/useFetchPokemon', () => ({
   __esModule: true,

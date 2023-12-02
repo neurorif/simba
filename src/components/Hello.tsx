@@ -1,8 +1,8 @@
 import React from 'react';
 import {Button, Text, View} from 'react-native';
-import sum from '@helpers/sum';
-import useHi from '@hooks/useHi';
-import {useBearStore} from '@stores/bears';
+import sum from '@simba/helpers/sum';
+import useHi from '@simba/hooks/useHi';
+import {useBearStore} from '@simba/stores/bears';
 
 export default function Hello() {
   const hi = useHi();

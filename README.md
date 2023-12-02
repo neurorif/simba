@@ -16,3 +16,17 @@ Inspired by https://ignitecookbook.com/
 - react-query (https://github.com/TanStack/query)
 - react-hook-form (https://github.com/react-hook-form/react-hook-form)
 - zod (https://github.com/colinhacks/zod)
+
+# Commands
+
+```sh
+npm start --reset-cache
+```
+
+```sh
+npm run android
+```
+
+## TODO
+
+- [ ] set simba avatar to app icon

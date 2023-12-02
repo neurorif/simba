@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '@screens/Home';
+import Home from '@simba/screens/Home';
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 
 const queryClient = new QueryClient();

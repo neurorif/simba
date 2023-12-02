@@ -1,7 +1,7 @@
 import React from 'react';
 import {ActivityIndicator, Button, FlatList, Text, View} from 'react-native';
-import useFetchPokemon, {Pokemon} from '@network/useFetchPokemon';
-import {usePokemonStore} from '@stores/pokemon';
+import useFetchPokemon, {Pokemon} from '@simba/network/useFetchPokemon';
+import {usePokemonStore} from '@simba/stores/pokemon';
 
 export default function PokemonList() {
   const {isError, isPending, data} = useFetchPokemon();

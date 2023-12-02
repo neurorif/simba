@@ -1,4 +1,4 @@
-import sum from '@helpers/sum';
+import sum from '@simba/helpers/sum';
 import {expect} from '@jest/globals';
 
 describe('sum', () => {

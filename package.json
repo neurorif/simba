@@ -29,7 +29,7 @@
     "@tsconfig/react-native": "^3.0.0",
     "@types/jest": "^29.5.10",
     "@types/node": "^20.10.1",
-    "@types/react": "^18.2.38",
+    "@types/react": "^18.2.41",
     "babel-jest": "^29.2.1",
     "babel-plugin-module-resolver": "^5.0.0",
     "detox": "^20.13.5",

@@ -9,7 +9,7 @@ Inspired by https://ignitecookbook.com/
 # Library used
 
 - jest (https://github.com/jestjs/jest)
-- detox (https://github.com/wix/Detox)
+- maestro (https://maestro.mobile.dev)
 - @testing-library/react-native (https://github.com/callstack/react-native-testing-library)
 - zustand (https://github.com/pmndrs/zustand)
 - react-native-mmkv (https://github.com/mrousavy/react-native-mmkv)

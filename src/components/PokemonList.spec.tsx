@@ -4,7 +4,7 @@ import {fireEvent, render, screen, within} from '@testing-library/react-native';
 import PokemonList from './PokemonList';
 import useFetchPokemon from '@simba/network/useFetchPokemon';
 
-jest.mock('@network/useFetchPokemon', () => ({
+jest.mock('@simba/network/useFetchPokemon', () => ({
   __esModule: true,
   default: jest.fn(() => ({
     data: [

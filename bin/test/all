@@ -4,3 +4,4 @@ set -e
 
 bin/test/unit start
 bin/test/component start
+bin/test/e2e start

@@ -1,0 +1,11 @@
+appId: com.simba
+---
+- assertVisible: bulbasaur
+- assertVisible: ivysaur
+- assertVisible: venusaur
+- tapOn:
+    id: pokemon-0
+- assertVisible: Favorite
+- stopApp: com.simba
+- launchApp: com.simba
+- assertVisible: Favorite

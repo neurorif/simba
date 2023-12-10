@@ -1,0 +1,6 @@
+appId: com.simba
+---
+- clearState: com.simba
+- launchApp
+- runFlow: subflows/basic.yaml
+- runFlow: subflows/pokemon.yaml

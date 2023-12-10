@@ -33,10 +33,11 @@ export default function PokemonList() {
           : 'Add to favorite';
 
         return (
-          <View testID={`pokemon-${index}`}>
+          <View>
             <Text>{item.name}</Text>
             <Button
-              testID="pokemon-favorite-button"
+              testID={`pokemon-${index}`}
+              accessibilityLabel={title}
               onPress={() => handlePressFavorite(item)}
               title={title}
             />

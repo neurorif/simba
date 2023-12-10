@@ -1,0 +1,9 @@
+appId: com.simba
+---
+- assertVisible: Hello World
+- assertVisible: 4
+- assertVisible: Hi!
+- assertVisible: 0
+- tapOn:
+    id: increase
+- assertVisible: 1

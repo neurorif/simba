@@ -1,4 +1,4 @@
-appId: com.simba
+appId: com.neurorif.simba
 ---
 - assertVisible: bulbasaur
 - assertVisible: ivysaur
@@ -6,6 +6,6 @@ appId: com.simba
 - tapOn:
     id: pokemon-0
 - assertVisible: Favorite
-- stopApp: com.simba
-- launchApp: com.simba
+- stopApp
+- launchApp
 - assertVisible: Favorite

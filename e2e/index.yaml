@@ -1,6 +1,6 @@
-appId: com.simba
+appId: com.neurorif.simba
 ---
-- clearState: com.simba
-- launchApp
+- launchApp:
+    clearState: true
 - runFlow: subflows/basic.yaml
 - runFlow: subflows/pokemon.yaml

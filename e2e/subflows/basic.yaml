@@ -1,4 +1,4 @@
-appId: com.simba
+appId: com.neurorif.simba
 ---
 - assertVisible: Hello World
 - assertVisible: 4

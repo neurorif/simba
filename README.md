@@ -26,7 +26,3 @@ npm start --reset-cache
 ```sh
 npm run android
 ```
-
-## TODO
-
-- [ ] set simba avatar to app icon
